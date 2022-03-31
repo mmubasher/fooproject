@@ -7,7 +7,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-for (let i = 100; i > 100; i++){
+for (let i = 100; i > 0; i--){
     console.log(i, 'logger');
 }
 
